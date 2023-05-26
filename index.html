@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add or Edit a Beneficiary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Add or Edit a Beneficiary</h1>
+    <p>This is a project to simulate adding or editing a record in the table</p>
+    <table style="width: 100%">
+      <tr>
+        <th>Test</th>
+        <th>Test</th>
+        <th>Test</th>
+      </tr>
+      <tr>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+      </tr>
+      <tr>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+      </tr>
+    </table>
+    <form>
+      <button type="button" onclick="addFunction()">Add</button>
+      <button type="button" onclick="editFunction()">Edit</button><br />
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br />
+      <label for="RelationshipDetails">Relationship Details:</label>
+      <select id="RelationshipDetails" name="RelationshipDetails">
+        <option value="Select">Select</option>
+        <option value="Spouse">Spouse</option>
+        <option value="Child">Child</option>
+        <option value="Husband">Husband</option></select
+      ><br />
+      <button type="button" onclick="finishFunction()">Finish</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
