@@ -9,8 +9,8 @@
   </head>
   <body>
     <h1>Add or Edit a Beneficiary</h1>
-    <p>This is a project to simulate adding or editing a record in the table</p>
-    <table style="width: 100%">
+    <p>This is a project to simulate adding or editing a record in an table</p>
+    <table id="BeneficiaryTable" name="BeneficiaryTable" style="width: 100%">
       <tr>
         <th>Test</th>
         <th>Test</th>
@@ -28,7 +28,7 @@
       </tr>
     </table>
     <form>
-      <button type="button" onclick="addFunction()">Add</button>
+      <button type="button" onclick="addBeneficiary()">Add</button>
       <button type="button" onclick="editFunction()">Edit</button><br />
       <label for="fname">First name:</label><br />
       <input type="text" id="fname" name="fname" value="John" /><br />

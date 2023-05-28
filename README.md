@@ -2,3 +2,4 @@
 
 Form with a pre-populated table to add a record or edit an existing record.
 05/22/2023 - created the basic structure of html, css and javascript
+05/27/2023 - created the function addBeneficiary
